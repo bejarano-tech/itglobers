@@ -88,7 +88,7 @@ export default function CodeTest({links}) {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <header className={styles.header}>
-          <a className={styles.logo}>Prueba</a>
+          <a href="/" className={styles.logo}>Prueba</a>
           <ul className={classnames(styles.nav, {[`${styles.open}`]: open})}>
             {links.map((link: {slug: string, title: string}) => (
               <li key={link.slug} >
