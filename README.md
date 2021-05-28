@@ -2,7 +2,9 @@ Esta es una prueba técnica hecha en [Next.js](https://nextjs.org/) para ITGlobe
 
 ## Iniciar
 
-Primero, corra el servidor de desarrollo:
+Instale las dependencias.
+
+Corra el servidor de desarrollo:
 
 ```bash
 npm run dev
