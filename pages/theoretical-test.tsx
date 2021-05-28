@@ -11,6 +11,10 @@ export default function TheoricalTest() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header className={styles.header}>
+        <a href="/" className={styles.logo}>Prueba</a>
+      </header>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Respuestas <a href="https://itglobers.com">Knowledge Test!</a>
@@ -39,7 +43,7 @@ que debe hacer uso del evento document.ready o de un evento onload.</p>
 
       <footer className={styles.footer}>
         <a
-          href="https://linkedin.com/fredbesan"
+          href="https://www.linkedin.com/in/fredbesan/"
           target="_blank"
           rel="noopener noreferrer"
         >

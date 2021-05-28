@@ -67,6 +67,24 @@
   color:#ebde31;
 }
 
+.header {
+  position: absolute;
+  top: 0;
+  padding: 0.5rem 2rem;
+  background-color: #480095;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  color: #ebde31;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .code {
   background: #fafafa;
   border-radius: 5px;
