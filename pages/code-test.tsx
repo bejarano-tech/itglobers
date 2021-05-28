@@ -49,7 +49,7 @@ export default function CodeTest({links}) {
     if (cellphone.trim() === '') {
       return 'Por favor ingrese un número de Celular';
     }
-    return 'Por favor ingrese un número válido'
+    return 'Por favor ingrese un número válido (10 dígitos)'
   }
 
   const ageValidation = (age: number) => {
@@ -91,7 +91,7 @@ export default function CodeTest({links}) {
           <a className={styles.logo}>Prueba</a>
           <ul className={classnames(styles.nav, {[`${styles.open}`]: open})}>
             {links.map((link: {slug: string, title: string}) => (
-              <li>
+              <li key={link.slug} >
                 <a onClick={() => setSelectedAirline(link)}>{link.title}</a>
               </li>
             ))}

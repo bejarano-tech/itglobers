@@ -30,9 +30,6 @@ export default function FormVanilla({initialValues, validate}) {
 
         const { [name]: removedError, ...rest } = errors;
 
-    
-        console.log(validate);
-
         const error = validate[name](value);
         setErrors({
             ...rest,
